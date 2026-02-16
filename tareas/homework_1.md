@@ -14,8 +14,8 @@
 | **Max valid length (16 digits)**   | `1234567890123456`  | **Valid**       |
 | **Below min length (12 digits)**   | `123456789012`      | **Invalid**     |
 | **Above max length (17 digits)**   | `12345678901234567` | **Invalid**     |
-| **Contains letter (Alpha char)**   | `1234567890abc`     | **Invalid**     |
-| **Contains symbol (Special char)** | `1234567890@#$`     | **Invalid**     |
+| **Contains letter (Char)**         | `1234567890abc`     | **Invalid**     |
+
 
 2. Function that validates dates.
    - Valid years: Between 1900 and 2100.
