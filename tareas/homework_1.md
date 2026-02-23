@@ -8,14 +8,13 @@
 1. Function that validates credit card numbers.
    - Valid card numbers: Length between 13 and 16 digits, containing only numeric digits.
 
-| Test Case                          | Input Data          | Expected Result |
-| :--------------------------------- | :------------------ | :-------------- |
-| **Min valid length (13 digits)**   | `1234567890123`     | **Valid**       |
-| **Max valid length (16 digits)**   | `1234567890123456`  | **Valid**       |
-| **Below min length (12 digits)**   | `123456789012`      | **Invalid**     |
-| **Above max length (17 digits)**   | `12345678901234567` | **Invalid**     |
-| **Contains letter (Char)**         | `1234567890abc`     | **Invalid**     |
-
+| Test Case                        | Input Data          | Expected Result |
+| :------------------------------- | :------------------ | :-------------- |
+| **Min valid length (13 digits)** | `1234567890123`     | **Valid**       |
+| **Max valid length (16 digits)** | `1234567890123456`  | **Valid**       |
+| **Below min length (12 digits)** | `123456789012`      | **Invalid**     |
+| **Above max length (17 digits)** | `12345678901234567` | **Invalid**     |
+| **Contains letter (Char)**       | `1234567890abc`     | **Invalid**     |
 
 2. Function that validates dates.
    - Valid years: Between 1900 and 2100.
@@ -105,10 +104,10 @@
 | :---------------------------- | :-------------------- | :-------------- |
 | **Max Tier 1 Weight (1kg)**   | W: `1kg`, D: `10cm`   | **$5**          |
 | **Max Tier 1 Dim (10cm)**     | W: `1kg`, D: `10cm`   | **$5**          |
-| **Min Tier 2 Weight (1.1kg)** | W: `1.1kg`, D: `10cm` | **$10**         |
-| **Min Tier 2 Dim (11cm)**     | W: `1kg`, D: `11cm`   | **$10**         |
+| **Min Tier 2 Weight (1.1kg)** | W: `1.1kg`, D: `11cm` | **$10**         |
+| **Min Tier 2 Dim (11cm)**     | W: `2kg`, D: `11cm`   | **$10**         |
 | **Max Tier 2 Weight (5kg)**   | W: `5kg`, D: `30cm`   | **$10**         |
-| **Max Tier 2 Dim (30cm)**     | W: `5kg`, D: `30cm`   | **$10**         |
+| **Max Tier 2 Dim (30cm)**     | W: `3kg`, D: `30cm`   | **$10**         |
 | **Min Tier 3 Weight (5.1kg)** | W: `5.1kg`, D: `15cm` | **$20**         |
 | **Min Tier 3 Dim (31cm)**     | W: `3kg`, D: `31cm`   | **$20**         |
 
@@ -141,4 +140,4 @@
 | **Valid User (Standard)**    | U: `usuario`, P: `password` | **"User"**      |
 | **Invalid User (Too short)** | U: `user`, P: `password`    | **"Invalid"**   |
 | **Invalid Pass (Too short)** | U: `usuario`, P: `pass`     | **"Invalid"**   |
-| **Admin User / Wrong Pass**  | U: `admin`, P: `wrong`      | **"User"**      |
+| **Admin User / Wrong Pass**  | U: `admin`, P: `wrong`      | **"Invalid"**   |
