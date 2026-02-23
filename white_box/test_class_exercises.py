@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# White-box unit tests - Alan Varela
 
 """
 White-box unit testing examples.
