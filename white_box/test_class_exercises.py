@@ -4,6 +4,7 @@
 """
 White-box unit testing examples.
 """
+
 import unittest
 
 from white_box.class_exercises import (

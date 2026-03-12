@@ -5,6 +5,7 @@
 """
 White-box integration tests examples.
 """
+
 import unittest
 from unittest.mock import patch
 
